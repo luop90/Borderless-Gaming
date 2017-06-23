@@ -1,5 +1,4 @@
-# [Buy it on Steam!](http://store.steampowered.com/app/388080)
-
+# [Install from Travis]()
 # What is this?
 
 Borderless Gaming is a simple tool that will allow you to turn your windowed video games into "fullscreen" applications without all of the negative side effects
@@ -16,10 +15,10 @@ The project is open source under the [GNU General Public License v2.0](https://g
 
 ## How to install and run Borderless-Gaming
 
-#### Buy through Steam and run it
-[Can be purchased here](http://store.steampowered.com/app/388080).
+#### Install from build
+Check the releases page.
 
-#### Install from Source
+#### Compile from Source
 
 - Clone with repository 
 
@@ -28,10 +27,6 @@ The project is open source under the [GNU General Public License v2.0](https://g
 - Select the "Release" option 
 
 - Build the projects and use the generated executable
-
-
-#### Usage
-[A detailed guide can be found here](https://steamcommunity.com/app/388080/discussions/0/535151589899658778/).
 
 #### Need help?
 contact me on my [Website](http://andrew.im) 
@@ -55,6 +50,3 @@ You are an adult and the expectation is that we all act like it.  This is not a 
 
 * **Twitter:** [@AndrewMD5](https://twitter.com/andrewmd5)
 * **Blog:** [blog.andrew.im](http://blog.andrew.im)
-
-# Join our Steam Group!
-[Borderless Gaming on Steam](https://steamcommunity.com/app/388080/discussions/)
