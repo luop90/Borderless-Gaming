@@ -65,15 +65,6 @@
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
-  <PropertyGroup>
-    <AssemblyOriginatorKeyFile>BGKey.pfx</AssemblyOriginatorKeyFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignManifests>false</SignManifests>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestCertificateThumbprint>CB509F61A8A3B970790F0E2C695A3782F101FF22</ManifestCertificateThumbprint>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="JetBrains.Annotations, Version=10.4.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
       <HintPath>packages\TaskScheduler.2.5.27\lib\net40\JetBrains.Annotations.dll</HintPath>
@@ -193,7 +184,6 @@
     <None Include="app.config" />
     <None Include="app.Launch as User.manifest" />
     <None Include="app.Launch as Elevated.manifest" />
-    <None Include="BGKey.pfx" />
     <None Include="data\blank.cur" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -265,7 +255,7 @@
 call iscc /Qp "$(ProjectDir)\Installers\BorderlessGaming_Standalone_User.iss"
 call "$(SolutionDir)Tools\DigiCertUtil.exe" sign /noInput /sha1 "CB509F61A8A3B970790F0E2C695A3782F101FF22" "$(ProjectDir)Installers\BorderlessGaming@(VersionNumber)_setup.exe"</PostBuildEvent>
   </PropertyGroup>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
