@@ -1,4 +1,4 @@
-# [Install from Travis]()
+# [Install from Releases](https://github.com/luop90/Borderless-Gaming/releases)
 # What is this?
 
 Borderless Gaming is a simple tool that will allow you to turn your windowed video games into "fullscreen" applications without all of the negative side effects
@@ -16,7 +16,7 @@ The project is open source under the [GNU General Public License v2.0](https://g
 ## How to install and run Borderless-Gaming
 
 #### Install from build
-Check the releases page.
+Check the [releases](https://github.com/luop90/Borderless-Gaming/releases) page.
 
 #### Compile from Source
 
